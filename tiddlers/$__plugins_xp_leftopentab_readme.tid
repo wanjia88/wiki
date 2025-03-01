@@ -1,0 +1,18 @@
+created: 20250301145003249
+creator: jia
+modified: 20250301145003249
+modifier: jia
+title: $:/plugins/xp/leftopentab/readme
+type: text/vnd.tiddlywiki
+
+!! 左置开启标签页
+
+A button to put the [[Open|$:/core/ui/SideBar/Open]] tab to the left. Click the button again to restore to the default position.
+
+!! Settings
+
+{{$:/plugins/xp/leftopentab/settings}}
+
+!! See also
+
+TWaddle's  [[LeftBar|http://leftbar.tiddlyspot.com/]] plugin

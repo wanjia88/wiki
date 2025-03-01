@@ -1,0 +1,19 @@
+created: 20250301144831922
+creator: jia
+modified: 20250301144904863
+modifier: jia
+title: $:/xp/leftopentab/content
+type: text/vnd.tiddlywiki
+
+\import [all[tiddlers+shadows]tag[$:/tags/Macro/Toc]]
+\procedure lingo-base() $:/plugins/linonetwo/itonnote/language/
+
+<$scrollable fallthrough="none" class="tc-popup-keep tc-menubar-dropdown-sidebar">
+
+	<$let toc-open-icon="$:/core/images/fold-button" toc-closed-icon="$:/core/images/folder">
+		<$transclude $variable="toc-ui" tag={{$:/plugins/linonetwo/itonnote/Configs/SideBarFolderMenuBaseTitle}} />
+	</$let>
+
+  <<lingo FolderMenu/Help>>
+
+</$scrollable>
