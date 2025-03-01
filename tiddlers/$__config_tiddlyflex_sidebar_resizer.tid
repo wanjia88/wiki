@@ -1,0 +1,11 @@
+caption: Sidebar resizer
+created: 20250301135545041
+creator: jia
+description: Whether or not the Sidebar Resizer should be enabled
+modified: 20250301135546320
+modifier: jia
+settings-template: $:/plugins/BTC/TiddlyFlex/ui/ControlPanel/Templates/input-switch
+title: $:/config/tiddlyflex/sidebar/resizer
+type: text/vnd.tiddlywiki
+
+no

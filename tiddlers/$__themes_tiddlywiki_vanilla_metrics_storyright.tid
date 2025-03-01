@@ -1,7 +1,8 @@
 created: 20250301132155284
 creator: jia
-modified: 20250301132211457
+modified: 20250301135609049
 modifier: jia
 title: $:/themes/tiddlywiki/vanilla/metrics/storyright
+type: text/vnd.tiddlywiki
 
-770px
+<$text text={{$:/xp/leftopentab/metrics/storyright}}/>
