@@ -637,25 +637,14 @@
         "title": "$:/plugins/sq/Stories/changelog"
     },
     {
-        "title": "$:/plugins/linonetwo/itonnote/Sidebar/FolderMenu",
+        "title": "$:/ControlPanel",
         "fromPageRect": {
-            "top": 360.69287109375,
-            "left": 1569.2857666015625,
-            "width": 12.492856979370117,
-            "right": 1581.7786235809326,
-            "bottom": 372.5785856246948,
-            "height": 11.885714530944824
-        }
-    },
-    {
-        "title": "$:/plugins/linonetwo/itonnote/Sidebar/FolderMenu",
-        "fromPageRect": {
-            "top": 43.91428756713867,
-            "left": 330.9142761230469,
-            "width": 746.7071533203125,
-            "right": 1077.6214294433594,
-            "bottom": 87.80000305175781,
-            "height": 43.88571548461914
+            "top": 29.657142639160156,
+            "left": 84.9142837524414,
+            "width": 274.8143005371094,
+            "right": 359.7285842895508,
+            "bottom": 76.28571319580078,
+            "height": 46.628570556640625
         }
     }
 ]

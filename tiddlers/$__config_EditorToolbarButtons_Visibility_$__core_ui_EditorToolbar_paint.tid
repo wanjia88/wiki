@@ -1,7 +1,8 @@
 created: 20250301131619506
 creator: jia
-modified: 20250301131623239
+modified: 20250301140231626
 modifier: jia
 title: $:/config/EditorToolbarButtons/Visibility/$:/core/ui/EditorToolbar/paint
+type: text/vnd.tiddlywiki
 
-show
+hide
