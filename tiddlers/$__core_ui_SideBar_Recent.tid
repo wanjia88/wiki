@@ -1,0 +1,10 @@
+caption: {{$:/language/SideBar/Recent/Caption}}
+created: 20250301152002212
+creator: jia
+modified: 20250301152004252
+modifier: jia
+tags: $:/tags/SideBar
+title: $:/core/ui/SideBar/Recent
+type: text/vnd.tiddlywiki
+
+<$transclude $variable="timeline" format={{$:/language/RecentChanges/DateFormat}} limit={{$:/config/RecentLimit}}/>

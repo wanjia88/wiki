@@ -1,9 +1,9 @@
 caption: {{$:/language/SideBar/Open/Caption}}
 created: 20250301145024368
 creator: jia
-modified: 20250301145024368
+modified: 20250301152005620
 modifier: jia
-tags: 
+tags: $:/tags/SideBar
 title: $:/core/ui/SideBar/Open
 type: text/vnd.tiddlywiki
 

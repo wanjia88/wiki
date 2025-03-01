@@ -1,7 +1,8 @@
 {
-    "import-select": "hide",
+    "import-select": "show",
     "toolbar-controls-on-shadows": "show",
     "source-toggle-button": "hide",
     "tw-version": "hide",
-    "extended-subtitle": "hide"
+    "extended-subtitle": "hide",
+    "immersive-reader": "yes"
 }

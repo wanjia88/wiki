@@ -1,0 +1,9 @@
+created: 20250301151908762
+creator: jia
+modified: 20250301151909882
+modifier: jia
+tags: $:/tags/SideBarSegment
+title: $:/core/ui/SideBarSegments/page-controls
+type: text/vnd.tiddlywiki
+
+{{||$:/core/ui/PageTemplate/pagecontrols}}

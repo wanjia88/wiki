@@ -1,0 +1,13 @@
+created: 20250301151912402
+creator: jia
+modified: 20250301151914555
+modifier: jia
+tags: 
+title: $:/core/ui/SideBarSegments/site-subtitle
+type: text/vnd.tiddlywiki
+
+<div class="tc-site-subtitle">
+
+<$transclude tiddler="$:/SiteSubtitle" mode="inline"/>
+
+</div>
