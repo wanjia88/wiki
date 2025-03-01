@@ -1,0 +1,7 @@
+caption: Transclusion
+description: Inc Transclusion
+tags: $:/tags/TiddlerTail
+title: $:/xp/tiddlertail/items/transclusion
+type: text/vnd.tiddlywiki
+
+<<showinc>>
