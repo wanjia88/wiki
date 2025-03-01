@@ -637,69 +637,235 @@
         "title": "$:/plugins/sq/Stories/changelog"
     },
     {
-        "title": "$:/ControlPanel",
+        "title": "$:/xp/images/leftopentab",
         "fromPageRect": {
-            "top": 29.657142639160156,
-            "left": 84.9142837524414,
-            "width": 274.8143005371094,
-            "right": 359.7285842895508,
-            "bottom": 76.28571319580078,
-            "height": 46.628570556640625
+            "top": 353.4857177734375,
+            "left": 143.8285675048828,
+            "width": 220.02142333984375,
+            "right": 363.84999084472656,
+            "bottom": 377.25714683532715,
+            "height": 23.77142906188965
+        }
+    },
+    {
+        "title": "$:/xp/ui/Buttons/leftopentab",
+        "fromPageRect": {
+            "top": 621.8857421875,
+            "left": 101.82857513427734,
+            "width": 250.09286499023438,
+            "right": 351.9214401245117,
+            "bottom": 645.6571712493896,
+            "height": 23.77142906188965
+        }
+    },
+    {
+        "title": "$:/config/LeftOpenTab/Titlebar",
+        "fromPageRect": {
+            "top": 225.88571166992188,
+            "left": 101.82857513427734,
+            "width": 266.68572998046875,
+            "right": 368.5143051147461,
+            "bottom": 249.65714073181152,
+            "height": 23.77142906188965
+        }
+    },
+    {
+        "title": "$:/plugins/xp/leftopentab/settings",
+        "fromPageRect": {
+            "top": 313.8857116699219,
+            "left": 101.82857513427734,
+            "width": 296.8714294433594,
+            "right": 398.7000045776367,
+            "bottom": 337.6571407318115,
+            "height": 23.77142906188965
+        }
+    },
+    {
+        "title": "$:/xp/images/leftopentab",
+        "fromPageRect": {
+            "top": 335.8857116699219,
+            "left": 101.82857513427734,
+            "width": 220.02142333984375,
+            "right": 321.8499984741211,
+            "bottom": 359.6571407318115,
+            "height": 23.77142906188965
+        }
+    },
+    {
+        "title": "$:/xp/leftopentab/macros",
+        "fromPageRect": {
+            "top": 445.8857116699219,
+            "left": 101.82857513427734,
+            "width": 220.75714111328125,
+            "right": 322.5857162475586,
+            "bottom": 469.6571407318115,
+            "height": 23.77142906188965
+        }
+    },
+    {
+        "title": "$:/xp/ui/Buttons/leftopentab",
+        "fromPageRect": {
+            "top": 621.8857421875,
+            "left": 101.82857513427734,
+            "width": 250.09286499023438,
+            "right": 351.9214401245117,
+            "bottom": 645.6571712493896,
+            "height": 23.77142906188965
+        }
+    },
+    {
+        "title": "$:/xp/ui/PageTemplate/leftsidebar",
+        "fromPageRect": {
+            "top": 687.8857421875,
+            "left": 101.82857513427734,
+            "width": 294.04998779296875,
+            "right": 395.8785629272461,
+            "bottom": 711.6571712493896,
+            "height": 23.77142906188965
+        }
+    },
+    {
+        "title": "$:/xp/ui/Buttons/maximize-river_EditToolbar",
+        "fromPageRect": {
+            "top": 665.8857421875,
+            "left": 101.82857513427734,
+            "width": 381.8999938964844,
+            "right": 483.7285690307617,
+            "bottom": 689.6571712493896,
+            "height": 23.77142906188965
+        }
+    },
+    {
+        "title": "$:/xp/ui/Buttons/maximize-river",
+        "fromPageRect": {
+            "top": 643.8857421875,
+            "left": 101.82857513427734,
+            "width": 277.71429443359375,
+            "right": 379.5428695678711,
+            "bottom": 667.6571712493896,
+            "height": 23.77142906188965
+        }
+    },
+    {
+        "title": "$:/xp/ui/Buttons/leftopentab",
+        "fromPageRect": {
+            "top": 621.8857421875,
+            "left": 101.82857513427734,
+            "width": 250.09286499023438,
+            "right": 351.9214401245117,
+            "bottom": 645.6571712493896,
+            "height": 23.77142906188965
+        }
+    },
+    {
+        "title": "$:/config/LeftOpenTab/Color",
+        "fromPageRect": {
+            "top": 181.88571166992188,
+            "left": 101.82857513427734,
+            "width": 246.85000610351562,
+            "right": 348.67858123779297,
+            "bottom": 205.65714073181152,
+            "height": 23.77142906188965
+        }
+    },
+    {
+        "title": "$:/config/LeftOpenTab/Status",
+        "fromPageRect": {
+            "top": 203.88571166992188,
+            "left": 101.82857513427734,
+            "width": 253.471435546875,
+            "right": 355.30001068115234,
+            "bottom": 227.65714073181152,
+            "height": 23.77142906188965
+        }
+    },
+    {
+        "title": "$:/config/LeftOpenTab/Titlebar",
+        "fromPageRect": {
+            "top": 225.88571166992188,
+            "left": 101.82857513427734,
+            "width": 266.68572998046875,
+            "right": 368.5143051147461,
+            "bottom": 249.65714073181152,
+            "height": 23.77142906188965
+        }
+    },
+    {
+        "title": "$:/config/LeftOpenTab/Wrap",
+        "fromPageRect": {
+            "top": 247.88571166992188,
+            "left": 101.82857513427734,
+            "width": 247.42857360839844,
+            "right": 349.2571487426758,
+            "bottom": 271.6571407318115,
+            "height": 23.77142906188965
+        }
+    },
+    {
+        "title": "$:/plugins/xp/leftopentab/readme",
+        "fromPageRect": {
+            "top": 291.8857116699219,
+            "left": 101.82857513427734,
+            "width": 294.02142333984375,
+            "right": 395.8499984741211,
+            "bottom": 315.6571407318115,
+            "height": 23.77142906188965
+        }
+    },
+    {
+        "title": "$:/plugins/xp/leftopentab/settings",
+        "fromPageRect": {
+            "top": 313.8857116699219,
+            "left": 101.82857513427734,
+            "width": 296.8714294433594,
+            "right": 398.7000045776367,
+            "bottom": 337.6571407318115,
+            "height": 23.77142906188965
+        }
+    },
+    {
+        "title": "$:/plugins/xp/leftopentab/readme",
+        "fromPageRect": {
+            "top": 291.8857116699219,
+            "left": 101.82857513427734,
+            "width": 294.02142333984375,
+            "right": 395.8499984741211,
+            "bottom": 315.6571407318115,
+            "height": 23.77142906188965
         }
     },
     {
         "title": "$:/core/ui/SideBar/Open",
         "fromPageRect": {
-            "top": 684.7589721679688,
-            "left": 84.5714340209961,
-            "width": 380.1875305175781,
-            "right": 464.7589645385742,
-            "bottom": 731.6161155700684,
-            "height": 46.85714340209961
+            "top": 410.3714294433594,
+            "left": 905.8928833007812,
+            "width": 37.86428451538086,
+            "right": 943.7571678161621,
+            "bottom": 430.02857208251953,
+            "height": 19.657142639160156
         }
     },
     {
-        "title": "$:/core/ui/SideBar/Open",
+        "title": "Draft of '$:/core/ui/SideBar/Open' by jia"
+    },
+    {
+        "title": "$:/core/ui/SideBar/Open"
+    },
+    {
+        "title": "Draft of '$:/core/ui/SideBar/Open' by jia"
+    },
+    {
+        "title": "$:/plugins/xp/rivers",
         "fromPageRect": {
-            "top": 58.57143020629883,
-            "left": 929.1785888671875,
-            "width": 354.8571472167969,
-            "right": 1284.0357360839844,
-            "bottom": 102.00000381469727,
-            "height": 43.42857360839844
+            "top": 280.6357116699219,
+            "left": 1041.4571533203125,
+            "width": 107.2357177734375,
+            "right": 1148.69287109375,
+            "bottom": 296.6357116699219,
+            "height": 16
         }
     },
     {
-        "title": "$:/core/ui/SideBar/Open",
-        "fromPageRect": {
-            "top": 58.57143020629883,
-            "left": 929.1785888671875,
-            "width": 354.8571472167969,
-            "right": 1284.0357360839844,
-            "bottom": 102.00000381469727,
-            "height": 43.42857360839844
-        }
-    },
-    {
-        "title": "$:/tags/SideBar",
-        "fromPageRect": {
-            "top": 144.55357360839844,
-            "left": 929.7500610351562,
-            "width": 471.0625305175781,
-            "right": 1400.8125915527344,
-            "bottom": 164.15178871154785,
-            "height": 19.598215103149414
-        }
-    },
-    {
-        "title": "$:/core/ui/SideBar/Open",
-        "fromPageRect": {
-            "top": 288.2589416503906,
-            "left": 1861.0179443359375,
-            "width": 12.491071701049805,
-            "right": 1873.5090160369873,
-            "bottom": 300.25894260406494,
-            "height": 12.000000953674316
-        }
+        "title": "$:/core/ui/SideBar/Open"
     }
 ]

@@ -1,0 +1,11 @@
+caption: Show the Top Right Menu
+created: 20250301143146277
+creator: jia
+description: Whether or not the Top Right Menu should be shown
+modified: 20250301143148974
+modifier: jia
+settings-template: $:/plugins/BTC/TiddlyFlex/ui/ControlPanel/Templates/input-switch
+title: $:/config/tiddlyflex/show-top-right-bar
+type: text/vnd.tiddlywiki
+
+no

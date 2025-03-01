@@ -1,0 +1,7 @@
+{
+    "import-select": "hide",
+    "toolbar-controls-on-shadows": "show",
+    "source-toggle-button": "hide",
+    "tw-version": "hide",
+    "extended-subtitle": "hide"
+}

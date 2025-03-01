@@ -1,0 +1,31 @@
+caption: {{$:/plugins/BTC/TiddlyFlex/icons/filter}} Filter story rivers
+created: 20250301143802357
+creator: jia
+description: Filter the story rivers by the search input
+modified: 20250301143802357
+modifier: jia
+tags: $:/tags/TopRightBar $:/tags/PageControls
+title: $:/plugins/BTC/TiddlyFlex/ui/Buttons/TopToolbar/filter
+type: text/vnd.tiddlywiki
+
+\whitespace trim
+<%if [tdff.tiddlyflex-layout[]] %>
+	<$button class={{{ [{$:/state/tiddlyflex/story-river/filter}match[yes]then[tc-selected]] [<tv-config-toolbar-class>] +[join[ ]] }}} tooltip="filter">
+		<%if [{$:/state/tiddlyflex/story-river/filter}match[yes]] %>
+			<$action-deletetiddler $tiddler="$:/state/tiddlyflex/story-river/filter"/>
+		<% else %>
+			<$action-setfield $tiddler="$:/state/tiddlyflex/story-river/filter" text="yes"/>
+			<%if [{$:/temp/search/input}is[blank]match[]then[yes]] %>
+				<$action-sendmessage $message="tm-focus-selector" $param=".tc-search input"/>
+			<% endif %>
+		<% endif %>
+		<$list filter="[<tv-config-toolbar-icons>match[yes]]">
+			{{$:/plugins/BTC/TiddlyFlex/icons/filter}}
+		</$list>
+		<$list filter="[<tv-config-toolbar-text>match[yes]]">
+			<span class="tc-btn-text">
+				<$text text="Filter story"/>
+			</span>
+		</$list>
+	</$button>
+<% endif %>

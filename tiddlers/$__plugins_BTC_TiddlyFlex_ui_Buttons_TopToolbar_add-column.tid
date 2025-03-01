@@ -1,0 +1,29 @@
+caption: {{$:/core/images/plus-button}} Add a column
+created: 20250301143802359
+creator: jia
+description: Add an additional column at the right
+modified: 20250301143802359
+modifier: jia
+tags: $:/tags/TopRightBar $:/tags/PageControls
+title: $:/plugins/BTC/TiddlyFlex/ui/Buttons/TopToolbar/add-column
+type: text/vnd.tiddlywiki
+
+\whitespace trim
+<%if [tdff.tiddlyflex-layout[]] %>
+	<$let columns={{{ [list[$:/columns]count[]!match[0]] ~1 }}} nextColumn={{{ [<columns>add[1]] }}}>
+		<$button class=<<tv-config-toolbar-class>> tooltip="add column">
+			<%if [list[$:/columns]count[]match[0]] %>
+				<$action-listops $tiddler="$:/columns" $subfilter="1"/>
+			<% endif %>
+			<$action-listops $tiddler="$:/columns" $subfilter="[<nextColumn>]"/>
+			<$list filter="[<tv-config-toolbar-icons>match[yes]]">
+				{{$:/core/images/plus-button}}
+			</$list>
+			<$list filter="[<tv-config-toolbar-text>match[yes]]">
+				<span class="tc-btn-text">
+					<$text text="Add a column"/>
+				</span>
+			</$list>
+		</$button>
+	</$let>
+<% endif %>

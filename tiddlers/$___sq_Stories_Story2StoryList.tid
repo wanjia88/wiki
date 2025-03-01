@@ -1,7 +1,7 @@
 created: 20250301142104727
 creator: jia
-list: 
-modified: 20250301142104727
+list: $:/plugins/xp/rivers $:/core/ui/SideBar/Open $:/plugins/xp/leftopentab/readme $:/config/LeftOpenTab/Wrap $:/config/LeftOpenTab/Titlebar $:/config/LeftOpenTab/Status $:/config/LeftOpenTab/Color $:/xp/ui/Buttons/maximize-river $:/xp/ui/Buttons/maximize-river_EditToolbar $:/xp/ui/PageTemplate/leftsidebar $:/xp/ui/Buttons/leftopentab $:/xp/images/leftopentab
+modified: 20250301144438960
 modifier: jia
 title: $:/_sq/Stories/Story2StoryList
 type: text/vnd.tiddlywiki

@@ -1,0 +1,23 @@
+caption: <<lingo Config/FolderMenu/Caption $:/plugins/linonetwo/itonnote/language/>>
+created: 20250301143929931
+creator: jia
+description: <<lingo Config/FolderMenu/Description $:/plugins/linonetwo/itonnote/language/>>
+is-dropdown: yes
+modified: 20250301144137189
+modifier: jia
+tags: $:/tags/SideBar $:/tags/MenuBar
+title: $:/plugins/linonetwo/itonnote/Sidebar/FolderMenu
+type: text/vnd.tiddlywiki
+
+\import [all[tiddlers+shadows]tag[$:/tags/Macro/Toc]]
+\procedure lingo-base() $:/plugins/linonetwo/itonnote/language/
+
+<$scrollable fallthrough="none" class="tc-popup-keep tc-menubar-dropdown-sidebar">
+
+	<$let toc-open-icon="$:/core/images/fold-button" toc-closed-icon="$:/core/images/folder">
+		<$transclude $variable="toc-ui" tag={{$:/plugins/linonetwo/itonnote/Configs/SideBarFolderMenuBaseTitle}} />
+	</$let>
+
+  <<lingo FolderMenu/Help>>
+
+</$scrollable>
