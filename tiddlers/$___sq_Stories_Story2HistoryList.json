@@ -637,14 +637,14 @@
         "title": "$:/plugins/sq/Stories/changelog"
     },
     {
-        "title": "$:/ControlPanel",
+        "title": "$:/plugins/xp/rivers",
         "fromPageRect": {
-            "top": 27,
-            "left": 42.91428756713867,
-            "width": 260.49285888671875,
-            "right": 303.4071464538574,
-            "bottom": 72.88571548461914,
-            "height": 45.88571548461914
+            "top": 294.0142822265625,
+            "left": 79.9142837524414,
+            "width": 1335.857177734375,
+            "right": 1415.7714614868164,
+            "bottom": 368.54285430908203,
+            "height": 74.52857208251953
         }
     }
 ]

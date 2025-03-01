@@ -1,7 +1,8 @@
 created: 20250301131314179
 creator: jia
-modified: 20250301131314179
+modified: 20250301134048340
 modifier: jia
 title: $:/config/Plugins/Disabled/$:/plugins/kookma/shiraz
+type: text/vnd.tiddlywiki
 
-yes
+no
